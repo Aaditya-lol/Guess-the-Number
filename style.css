@@ -1,0 +1,50 @@
+body {
+    text-align: center;
+    background-color: #111111;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container {
+    padding-top: 100px;
+}
+h1 {
+    color: #ffffff;
+}
+
+.message {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #ffffff;
+}
+
+p {
+    color: #ffffff;
+}
+
+.attempts {
+    font-size: 16px;
+    margin-top: 10px;
+    color: #ffffff;
+}
+
+input[type="number"] {
+    width: 50px;
+    padding: 5px;
+    font-size: 16px;
+    border-radius: 10px;
+}
+
+input[type="submit"] {
+    padding: 5px 15px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
